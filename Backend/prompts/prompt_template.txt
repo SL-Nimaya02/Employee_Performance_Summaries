@@ -1,0 +1,14 @@
+Generate a concise monthly performance summary for the following employee:
+
+Name: {name}
+ID: {id}
+Department: {department}
+Month: {month}
+Tasks Completed: {tasks}
+Goals Met: {goals}%
+Peer Feedback: {peer}
+Manager Comments: {manager}
+
+
+
+
