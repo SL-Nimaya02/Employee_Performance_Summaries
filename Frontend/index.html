@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Summary Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Dashboard Overview -->
+  <header>
+    <h1>AI Employee Summary Generator</h1>
+  </header>
+  <p class="discription">This application helps HR and Managers generate AI-based summaries of employee performance using data from CSV files. Simply upload a file, click the button, and generate summaries.</p>
+
+  <!-- File Upload Section -->
+  <div class="container">
+    <div class="file-upload-container">
+      <input class="input" type="file" id="csvFile" accept=".csv">
+      <button id="generateButton" onclick="uploadCSV()">Generate Summary</button>
+    </div>
+
+     <!-- Loading Spinner -->
+    <div id="loading" class="loading" style="display: none;">
+      <span>Loading...</span>
+    </div>
+
+     <!-- Results Display Section -->
+  <div id="results"></div>
+
+   <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 AI Employee Summary Generator</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
